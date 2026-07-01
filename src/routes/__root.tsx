@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant" },
+      { name: "description", content: "AI Productivity Hub is a modern dashboard app that automates workplace tasks using AI." },
+      { property: "og:description", content: "AI Productivity Hub is a modern dashboard app that automates workplace tasks using AI." },
+      { name: "twitter:description", content: "AI Productivity Hub is a modern dashboard app that automates workplace tasks using AI." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e77fe70b-8c4c-4be9-a998-9d8737ccfaf8/id-preview-682c4778--0bac4d10-8f7b-4aee-8f7e-1016abe1ed41.lovable.app-1782900939593.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e77fe70b-8c4c-4be9-a998-9d8737ccfaf8/id-preview-682c4778--0bac4d10-8f7b-4aee-8f7e-1016abe1ed41.lovable.app-1782900939593.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
